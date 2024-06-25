@@ -9,9 +9,9 @@ export default function Login() {
   return (
     <div className="card flex justify-content-center">
       <Button
-        label="Login"
+        label="Se connecter"
         icon="pi pi-user"
-        className="h-8"
+        className="h-8 bg-blue-500"
         onClick={() => setVisible(true)}
         raised
       />
